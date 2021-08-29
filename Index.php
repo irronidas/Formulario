@@ -1,12 +1,12 @@
-<?php
-include("cn.php");
-?>
 <!DOCTYPE html>
 <html>
     <head>
     <title>CRUD</title>
     </head>
 <body>
+<?php
+include("cn.php");
+?>
     <?php
     $sql = mysqli_query($con, "SELECT * FROM identidad");
     ?>
